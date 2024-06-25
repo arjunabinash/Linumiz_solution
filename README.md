@@ -15,19 +15,19 @@ Solution:
 
 1. Stack Data Structure:
 
-1.1. The stack is used to keep track of directories.
-1.2. initStack initializes the stack.
-1.3. isEmpty and isFull check the stack status.
-1.4. push adds a directory to the stack.
-1.5. pop removes and returns the top directory from the stack.
+- The stack is used to keep track of directories.
+- initStack initializes the stack.
+- isEmpty and isFull check the stack status.
+- push adds a directory to the stack.
+- pop removes and returns the top directory from the stack.
 
 2. Directory Handling:
 
-2.1. my_getcwd and my_chdir wrap the system calls getcwd and chdir, handling errors directly.
-2.2. writeStr writes a string to a given file descriptor.
+- my_getcwd and my_chdir wrap the system calls getcwd and chdir, handling errors directly.
+- writeStr writes a string to a given file descriptor.
 
 3. Command Handling:
 
-3.1. handlePushd saves the current directory to the stack and changes to the new directory.
-3.2. handlePopd restores the previous directory from the stack.
-3.3. The main function processes command-line arguments and calls the appropriate handler.
+- handlePushd saves the current directory to the stack and changes to the new directory.
+- handlePopd restores the previous directory from the stack.
+- The main function processes command-line arguments and calls the appropriate handler.
